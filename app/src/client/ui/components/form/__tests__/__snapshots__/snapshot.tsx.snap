@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test several shapes of the form when not passing default measure renders form without name input 1`] = `
+<div>
+  <section
+    class="container"
+  >
+    <h2
+      class="title"
+    >
+      New meeasurment
+    </h2>
+    <form
+      class="form paper"
+    >
+      <input
+        placeholder="metric*"
+        required=""
+        type="text"
+      />
+      <input
+        placeholder="value*"
+        required=""
+        step="0.1"
+        type="number"
+      />
+      <input
+        type="submit"
+        value="save"
+      />
+    </form>
+  </section>
+</div>
+`;
+
+exports[`test several shapes of the form when passing default measure renders form without name input 1`] = `
+<div>
+  <section
+    class="container"
+  >
+    <form
+      class="form "
+    >
+      <input
+        hidden=""
+        placeholder="metric*"
+        readonly=""
+        required=""
+        type="text"
+        value="hc"
+      />
+      <input
+        placeholder="value*"
+        required=""
+        step="0.1"
+        type="number"
+      />
+      <input
+        type="submit"
+        value="save"
+      />
+    </form>
+  </section>
+</div>
+`;
