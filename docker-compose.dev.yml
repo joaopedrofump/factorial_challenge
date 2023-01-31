@@ -2,8 +2,8 @@ version: '3'
 
 services:
 
-  database:
-    container_name: database
+  app_database:
+    container_name: app_database
     image: influxdb:latest
     volumes:
       - ./db/data:/var/lib/influxdb2
